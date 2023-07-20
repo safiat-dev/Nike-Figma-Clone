@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff6da;
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+  top: -1rem;
+  left: 0;
+  width: 100%;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  height: 35px;
+  width: 100px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -1rem;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 65px;
+}
+
+header ul li a {
+  text-decoration: none;
+  width: 63px;
+  height: 31px;
+  font-family: "DM Sans", "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #000000;
+}
+
+
+section .content {
+  font-family: "DM Sans", "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.color {
+  color: #fc6b3f;
+}
+
+.main-page {
+  margin-top: -2rem;
+  left: 0;
+  width: 100%;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+}
+
+section .shoes {
+  width: 800px;
+  height: 500px;
+  margin-right: -5rem;
+}
+
+.btn {
+  padding: 22px 22px;
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: #fc6b3f;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 29px;
+  width: 190px;
+  height: 67px;
+  border-radius: 11px;
+  border-radius: 11px;
+  margin-left: 2rem;
+  position: absolute;
+  left: 45rem;
+  top: 45rem;
+}
+
